@@ -75,6 +75,8 @@ userSchema.methods.generateAccessToken = function () {
     }
   );
 };
+
+// this is working
 userSchema.methods.generatRefreshToken = function () {
   JWT.sign(
     {
